@@ -59,78 +59,75 @@
     "skills":[
       {
         "name":"Git",
-        "description":"I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
         "image":"git.jpg"
       },
       {
         "name":"Java",
-        "description":"Java was my first programming language that I started using in college years ago. It is by far the language I am most familiar with in terms of data-structure and algorithm programming.",
         "image":"java.jpg"
       },
       {
         "name":"React Js",
-        "description":"I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website template (link below in portfolio) which I used as a starting point for this personal site.",
         "image":"react.jpg"
       },
-      {
-        "name":"Meteor JS",
-        "description":"I enjoy MeteorJS for it's ease of configuration and its ability to get a full stack prototype up and running quickly. I used MeteorJS in a team for a Startup Programming class in UVIC in conjunction with React to build the MVP for Smirkspace (below in portfolio)",
-        "image":"meteor.jpg"
-      },
+      
 
       {
         "name":"Node JS",
-        "description":"Node JS is my server-side scripting language of choice. The bulk of my experience with it has been in conjunction with MeteorJS-based projects",
         "image":"node.jpg"
       },
       {
         "name":"Bootstrap 4",
-        "description":"I use Bootstrap more often than not when designing the layout for my sites. It is the framework I am most familiar with and can therefore design more quickly than with others.",
         "image":"bootstrap.jpg"
       },
       {
         "name":"MongoDB",
-        "description":"I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
         "image":"mongo.jpg"
       },
       {
-        "name":"Heroku",
-        "description":"I use Heroku as my hosting platform for most of my projects because so far they are all unpaid and their free tier is convenient. I also appreciate its integration with Github for such simple deployment.",
-        "image":"heroku.jpg"
+        "name":"Python",
+        "image":"python.jpg"
+      },
+      {
+        "name":"HTML",
+        "image":"html.jpg"
+      },
+      {
+        "name":"CSS",
+        "image":"css.jpg"
+      },
+      {
+        "name":"MySql",
+        "image":"mysql.jpg"
+      },
+      {
+        "name":"Tensorflow",
+        "image":"tensorflow.jpg"
+      },
+      {
+        "name":"JavaScript",
+        "image":"javascript.jpg"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Tic-Tac-Toe",
+        "category":"A react based Tic-Tac-Toe game",
+        "image":"tic-tac-toe.png",
+        "url":"https://master.d2ztmxrnpvicp4.amplifyapp.com/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Weather Finder",
+        "category":"A React based weather finder app which fetch the data through API call",
+        "image":"weather-finder.png",
+        "url":"https://master.d2n1cg39pf5ptq.amplifyapp.com/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"https://original-thai-food.herokuapp.com/index.html"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"https://github.com/tbakerx/react-resume-template"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Twitter Sentiment Analysis",
+        "category":"Python based sentiment analysis using tweepy and textblob",
+        "image":"twitter-sentiment-analysis.png",
+        "url":"https://github.com/DhrumilShah26/Twitter-sentiment-analysis"
       }
     ]
   },

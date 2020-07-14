@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
 
-class Portfolio extends Component {
+class Projects extends Component {
   render() {
 
     if(this.props.data){
       var projects = this.props.data.projects.map(function(projects){
-        var projectImage = 'images/portfolio/'+projects.image;
-        return <div key={projects.title} className="columns portfolio-item">
+        var projectImage = 'images/projects/'+projects.image;
+        return <div key={projects.title} className="columns projects-item">
            <div className="item-wrap">
             <a href={projects.url} title={projects.title}>
                <img alt={projects.title} src={projectImage} />
                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                 <h5>{projects.title}</h5>
+                  <div className="projects-item-meta">
+                    <h5>{projects.title}</h5>
                      <p>{projects.category}</p>
                   </div>
                 </div>
+                <div>{projects.title}</div>
               <div className="link-icon"><i className="fa fa-link"></i></div>
             </a>
           </div>
@@ -24,7 +25,7 @@ class Portfolio extends Component {
     }
 
     return (
-      <section id="portfolio">
+      <section id="projects">
 
       <div className="row">
 
@@ -42,4 +43,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default Projects;
