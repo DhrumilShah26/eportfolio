@@ -1,8 +1,35 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
-  render() {
 
+   constructor(props) {
+      super(props);
+      this.submitForm = this.submitForm.bind(this);
+      this.state = {
+         status: ""
+      };
+   }
+
+   submitForm(ev) {
+      ev.preventDefault();
+      const form = ev.target;
+      const data = new FormData(form);
+      const xhr = new XMLHttpRequest();
+      xhr.open(form.method, form.action);
+      xhr.setRequestHeader("Accept", "application/json");
+      xhr.onreadystatechange = () => {
+        if (xhr.readyState !== XMLHttpRequest.DONE) return;
+        if (xhr.status === 200) {
+          form.reset();
+          this.setState({ status: "SUCCESS" });
+        } else {
+          this.setState({ status: "ERROR" });
+        }
+      };
+      xhr.send(data);
+    }
+
+  render() {
     if(this.props.data){
       var name = this.props.data.name
       var city = this.props.data.address.city;
@@ -37,22 +64,22 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form action="https://formspree.io/myynbjrv" method="post" id="contactForm" name="contactForm" onSubmit={this.submitForm}>
 					<fieldset>
 
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>/>
+						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>/>
+						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>/>
+						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
@@ -85,7 +112,7 @@ class Contact extends Component {
 						   {city} <br />
 						   {state}, {zip}<br />
 						   <span>{phone}</span><br />
-               <span><a href="mailto:tbakerx@gmail.com">{email}</a></span>
+                     <span><a href="mailto:sdhrumil2605@gmail.com">{email}</a></span>
 					   </p>
 				   </div>
             </aside>
