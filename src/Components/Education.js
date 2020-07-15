@@ -11,7 +11,7 @@ class Education extends Component {
         </div>
       })
       var skills = this.props.data.skills.map(function(skills){
-      var projectImage = 'https://raw.githubusercontent.com/DhrumilShah26/eportfolio/master/public/images/tech/'+skills.image;
+      var projectImage = 'eportfolio/images/tech/'+skills.image;
         return <div key={skills.name} className="columns feature-item">
                   <img className='skill' alt={skills.name} src={projectImage} />
                   <h5>{skills.name}</h5>
