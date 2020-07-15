@@ -5,7 +5,7 @@ class Projects extends Component {
 
     if(this.props.data){
       var projects = this.props.data.projects.map(function(projects){
-        var projectImage = 'images/projects/'+projects.image;
+        var projectImage = 'eportfolio/images/projects/'+projects.image;
         return <div key={projects.title} className="columns projects-item">
            <div className="item-wrap">
             <a href={projects.url} title={projects.title}>

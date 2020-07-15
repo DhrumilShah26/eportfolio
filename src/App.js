@@ -25,7 +25,7 @@ class App extends Component {
   getResumeData(){
       const load = document.getElementById('siteLoading')
     $.ajax({
-      url:'/resumeData.json',
+      url:'/eportfolio/resumeData.json',
       dataType:'json',
       cache: false,
       success: function(data){
