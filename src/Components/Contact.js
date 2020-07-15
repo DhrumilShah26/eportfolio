@@ -1,35 +1,8 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
-
-   constructor(props) {
-      super(props);
-      this.submitForm = this.submitForm.bind(this);
-      this.state = {
-         status: ""
-      };
-   }
-
-   submitForm(ev) {
-      ev.preventDefault();
-      const form = ev.target;
-      const data = new FormData(form);
-      const xhr = new XMLHttpRequest();
-      xhr.open(form.method, form.action);
-      xhr.setRequestHeader("Accept", "application/json");
-      xhr.onreadystatechange = () => {
-        if (xhr.readyState !== XMLHttpRequest.DONE) return;
-        if (xhr.status === 200) {
-          form.reset();
-          this.setState({ status: "SUCCESS" });
-        } else {
-          this.setState({ status: "ERROR" });
-        }
-      };
-      xhr.send(data);
-    }
-
   render() {
+
     if(this.props.data){
       var name = this.props.data.name
       var city = this.props.data.address.city;
@@ -64,7 +37,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="https://formspree.io/myynbjrv" method="post" id="contactForm" name="contactForm" onSubmit={this.submitForm}>
+               <form action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
