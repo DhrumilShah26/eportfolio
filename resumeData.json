@@ -1,0 +1,142 @@
+{
+  "main": {
+    "name":"Dhrumil Shah",
+    "image":"profile_pic.jpg",
+    "bio":"I am a hard-working and performance-driven Software Developer with skilled in Web Development and Machine Learning. Strong computer science professional skills with a Master's degree focused on Applied Computing from the University of Windsor. I have built numerous websites and web applications by following the Agile methodologies being a Full Stack Developer. I have a specialization in JavaScript and have professional experience in RESTful APIs making using Node.js, Python as well as database design using MongoDB, SQL, and Front-end development with React.",
+    "contactmessage":"Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
+    "email": "sdhrumil2605@gmail.com",
+    "phone": "(519) 991-4992",
+    "address":{
+      "street":"920 Elm Avenue",
+      "city":"Windsor",
+      "state":"Ontario",
+      "zip": "N9A 5H5"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://drive.google.com/file/d/1CEnv_Cptjg16WQDzZpDBxXMjnn_E08Nw/view?usp=sharing",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/dhrumilshah.26",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/dhrumilshah26/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/dhrumil.26",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"stack-overflow",
+        "url":"https://stackexchange.com/users/16025968/dhrumil-shah",
+        "className":"fa fa-stack-overflow"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/DhrumilShah26",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over",
+    "education":[
+      {
+        "school":"University of Windsor",
+        "degree":"Master of Applied Computing",
+        "graduated":"Jan 2020 - Present"
+      },
+      {
+        "school":"L.D. College of Engineering, Gujarat Technological University",
+        "degree":"Bachelor of Engineering in Computer Engineering",
+        "graduated":"Aug 2015 - May 2019"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "image":"git.jpg"
+      },
+      {
+        "name":"Java",
+        "image":"java.jpg"
+      },
+      {
+        "name":"React Js",
+        "image":"react.jpg"
+      },
+      
+
+      {
+        "name":"Node JS",
+        "image":"node.jpg"
+      },
+      {
+        "name":"Bootstrap 4",
+        "image":"bootstrap.jpg"
+      },
+      {
+        "name":"MongoDB",
+        "image":"mongo.jpg"
+      },
+      {
+        "name":"Python",
+        "image":"python.jpg"
+      },
+      {
+        "name":"HTML",
+        "image":"html.jpg"
+      },
+      {
+        "name":"CSS",
+        "image":"css.jpg"
+      },
+      {
+        "name":"MySql",
+        "image":"mysql.jpg"
+      },
+      {
+        "name":"Tensorflow",
+        "image":"tensorflow.jpg"
+      },
+      {
+        "name":"JavaScript",
+        "image":"javascript.jpg"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Tic-Tac-Toe",
+        "category":"A react based Tic-Tac-Toe game",
+        "image":"tic-tac-toe.png",
+        "url":"https://master.d2ztmxrnpvicp4.amplifyapp.com/"
+      },
+      {
+        "title":"Weather Finder",
+        "category":"A React based weather finder app which fetch the data through API call",
+        "image":"weather-finder.png",
+        "url":"https://master.d2n1cg39pf5ptq.amplifyapp.com/"
+      },
+      {
+        "title":"Twitter Sentiment Analysis",
+        "category":"Python based sentiment analysis using tweepy and textblob",
+        "image":"twitter-sentiment-analysis.png",
+        "url":"https://github.com/DhrumilShah26/Twitter-sentiment-analysis"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"I have had the opportunity to work with Tim on multiple occasions which has always been a pleasure. He is driven and motivated with a consistently positive attitude. Tim excels at communicating with others and is always willing to work hard until he solves the problem at hand.",
+        "user":"Alastair Beaumont - Web Developer at AppColony"
+      }
+    ]
+  }
+}
