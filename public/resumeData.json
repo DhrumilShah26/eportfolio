@@ -69,8 +69,6 @@
         "name":"React Js",
         "image":"react.jpg"
       },
-      
-
       {
         "name":"Node JS",
         "image":"node.jpg"
@@ -114,7 +112,7 @@
       {
         "title":"Tic-Tac-Toe",
         "category":"A react based Tic-Tac-Toe game",
-        "image":"tic-tac-toe.png",
+        "image":"../assets/projects/tic-tac-toe.png",
         "url":"https://master.d2ztmxrnpvicp4.amplifyapp.com/"
       },
       {
