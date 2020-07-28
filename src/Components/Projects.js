@@ -40,7 +40,7 @@ class Projects extends Component {
 
               <div className="columns projects-item">
                 <div className="item-wrap">
-                  <a href='https://master.d2ztmxrnpvicp4.amplifyapp.com/' title="Tic-Tac-Toe" target="_blank" rel="noopener noreferrer">
+                  <a href="https://master.d2ztmxrnpvicp4.amplifyapp.com/" title="Tic-Tac-Toe" target="_blank" rel="noopener noreferrer">
                   <img alt="Tic-Tac-Toe" src={TicTacToe} />
                   <div className="overlay">
                     <div className="projects-item-meta">
@@ -55,7 +55,7 @@ class Projects extends Component {
               </div>
 
               <div className="columns projects-item">
-                <div className="item-wrap">
+                <div className="">
                   <a href='https://master.d2n1cg39pf5ptq.amplifyapp.com/' title="Weather Finder" target="_blank" rel="noopener noreferrer">
                   <img alt="Tic-Tac-Toe" src={WeatherFinder} />
                   <div className="overlay">
@@ -70,7 +70,7 @@ class Projects extends Component {
                 </div>
               </div>
 
-              <div className="columns projects-item">
+              <div className="columns ">
                 <div className="item-wrap">
                   <a href='https://github.com/DhrumilShah26/Twitter-sentiment-analysis' title="Twitter Sentiment Analysis" target="_blank" rel="noopener noreferrer">
                   <img alt="Twitter Sentiment Analysis" src={TwitterSA} />
