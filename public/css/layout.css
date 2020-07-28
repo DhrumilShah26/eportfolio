@@ -315,13 +315,13 @@ ul#nav li.current a { color: #F06000; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.projects-item .item-wrap a {
+.projects-item a {
    display: block;
    cursor: pointer;
 }
 
 /* overlay */
-.projects-item .item-wrap .overlay {
+.projects-item .overlay {
    position: absolute;
    left: 0;
    top: 0;
@@ -339,7 +339,7 @@ ul#nav li.current a { color: #F06000; }
 
    background: url(../images/overlay-bg.png) repeat;
 }
-.projects-item .item-wrap .link-icon {
+.projects-item .link-icon {
    display: block;
    color: #fff;
    height: 30px;
@@ -363,7 +363,7 @@ ul#nav li.current a { color: #F06000; }
    margin-left: -15px;
    margin-top: -15px;
 }
-.projects-item .item-wrap img {
+.projects-item img {
    vertical-align: bottom;
 }
 .projects-item .projects-item-meta { padding: 18px }
