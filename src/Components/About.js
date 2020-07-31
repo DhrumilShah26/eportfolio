@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import profilepic from '../assets/profile_pic.jpg';
+import resume from '../assets/resume.pdf';
 
 class About extends Component {
   render() {
@@ -40,7 +41,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button" target="_blank" rel="noopener noreferrer"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={resume} className="button" target="_blank" rel="noopener noreferrer"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
