@@ -39,7 +39,7 @@ class Projects extends Component {
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
 
               <div className="columns projects-item">
-                <a href='https://master.d2ztmxrnpvicp4.amplifyapp.com/' title="Tic-Tac-Toe" target="_blank" rel="noopener noreferrer">
+                <a href='https://tictactoe-game-play.netlify.app/' title="Tic-Tac-Toe" target="_blank" rel="noopener noreferrer">
                 <img alt="Tic-Tac-Toe" src={TicTacToe} />
                 <div className="overlay">
                   <div className="projects-item-meta">
@@ -53,7 +53,7 @@ class Projects extends Component {
               </div>
 
               <div className="columns projects-item">
-                <a href='https://master.d2n1cg39pf5ptq.amplifyapp.com/' title="Weather Finder" target="_blank" rel="noopener noreferrer">
+                <a href='https://weather-finder-webapp.netlify.app/' title="Weather Finder" target="_blank" rel="noopener noreferrer">
                 <img alt="weather finder" src={WeatherFinder} />
                 <div className="overlay">
                   <div className="projects-item-meta">

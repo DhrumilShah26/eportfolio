@@ -10,7 +10,7 @@ class Contact extends Component {
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var message = this.props.data.contactmessage;
+      //var message = this.props.data.contactmessage;
     }
 
     return (
@@ -21,14 +21,6 @@ class Contact extends Component {
             <div className="two columns header-col">
 
                <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-            <div className="ten columns">
-
-                  <p className="lead">{message}</p>
-                  <br/>
-                  <p className="lead warning">Warning: Contact form not yet configured, please contact me via normal email for now</p>
 
             </div>
 
