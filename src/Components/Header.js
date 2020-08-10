@@ -29,7 +29,7 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">{name}</h1>
+            <h1 className="responsive-headline animate__animated animate__zoomIn mb-0">{name}</h1>
             <h3><span>Full Stack Developer</span> and <span> Machine Learning/AI Enthusiast.</span></h3>
             <hr />
             <ul className="social">

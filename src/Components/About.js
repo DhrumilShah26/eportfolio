@@ -23,7 +23,7 @@ class About extends Component {
          <div className="three columns">
             <img className="profile-pic"  src={profilepic} alt="Dhrumil Shah Profile Pic" />
          </div>
-         <div className="nine columns main-col">
+         <div className="nine columns main-col animate__animated animate__zoomIn">
             <h2>About Me</h2>
  
             <p>{bio}</p>
