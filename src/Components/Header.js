@@ -29,10 +29,10 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline animate__animated animate__zoomIn mb-0">{name}</h1>
-            <h3><span>Full Stack Developer</span> and <span> Machine Learning/AI Enthusiast.</span></h3>
+            <h1 className="responsive-headline animate__animated animate__zoomIn  animate__delay-2s">{name}</h1>
+            <h3 className="animate__animated animate__zoomIn  animate__delay-2s"><span>Full Stack Developer</span> and <span> Machine Learning/AI Enthusiast.</span></h3>
             <hr />
-            <ul className="social">
+            <ul className="social animate__animated animate__fadeInUp animate__delay-3s">
                {networks}
             </ul>
          </div>
