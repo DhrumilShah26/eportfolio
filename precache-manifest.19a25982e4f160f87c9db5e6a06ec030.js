@@ -1,27 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e20f4e52e20656a532839046b249e00",
+    "revision": "3b0c5b13aef016c7e8c7a8d91e360b67",
     "url": "/eportfolio/index.html"
   },
   {
-    "revision": "29097fb9721b8c328bb8",
+    "revision": "4e14d85515b27a60e08e",
+    "url": "/eportfolio/static/css/2.4feb472b.chunk.css"
+  },
+  {
+    "revision": "2a2793def1477d7fd2e6",
     "url": "/eportfolio/static/css/main.14d54006.chunk.css"
   },
   {
-    "revision": "be282c614145229604e5",
-    "url": "/eportfolio/static/js/2.7d713f72.chunk.js"
+    "revision": "4e14d85515b27a60e08e",
+    "url": "/eportfolio/static/js/2.092ede41.chunk.js"
   },
   {
     "revision": "f4aac9c965aa45c554c7c1d1e3f69ce3",
-    "url": "/eportfolio/static/js/2.7d713f72.chunk.js.LICENSE.txt"
+    "url": "/eportfolio/static/js/2.092ede41.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "29097fb9721b8c328bb8",
-    "url": "/eportfolio/static/js/main.c775617d.chunk.js"
+    "revision": "2a2793def1477d7fd2e6",
+    "url": "/eportfolio/static/js/main.f80d4967.chunk.js"
   },
   {
     "revision": "6145c6e6da0818209568",
     "url": "/eportfolio/static/js/runtime-main.001c11db.js"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/eportfolio/static/media/fontawesome-webfont.674f50d2.eot"
+  },
+  {
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/eportfolio/static/media/fontawesome-webfont.912ec66d.svg"
+  },
+  {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/eportfolio/static/media/fontawesome-webfont.af7ae505.woff2"
+  },
+  {
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/eportfolio/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/eportfolio/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
     "revision": "e507a8e851d9c350a34d5085d561fbcb",
