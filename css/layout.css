@@ -98,7 +98,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: rgb(27, 27, 27); }
-header .social li a:hover { color: #5ebed6; }
+header .social li a:hover { color: #179038; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -258,7 +258,7 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 6px;
 }
 #education h3 {
-   font: 20px/26px 'opensans-bold', sans-serif;
+   font: 25px/30px 'opensans-bold', sans-serif;
 }
 
 #education .header-col { padding-top: 9px; }
@@ -270,25 +270,20 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 1px solid #E8E8E8;
 }
 #education .info {
-   font: 16px/24px '', serif;
+   font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
 #education .info span {
    margin-right: 5px;
-   margin-left: 50px;
+   margin-left: 5px;
+}
+#education .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
 }
 
-.details {
-   font: 20px/26px 'opensans-bold', sans-serif;
-   color: #161616;
-}
-
-.details-1 {
-   font: 16px/22px 'opensans', sans-serif;
-   color: #222222;
-}
 /* ------------------------------------------------------------------ */
 /* e. Projects Section
 /* ------------------------------------------------------------------ */

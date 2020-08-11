@@ -48,14 +48,12 @@
       {
         "school":"University of Windsor",
         "degree":"Master of Applied Computing",
-        "graduated":"Jan 2020 - Present",
-        "cgpa" : "85 out of 100"
+        "graduated":"Jan 2020 - Present"
       },
       {
-        "school":"L.D. College of Engineering (Gujarat Technological University)",
+        "school":"L.D. College of Engineering, Gujarat Technological University",
         "degree":"Bachelor of Engineering in Computer Engineering",
-        "graduated":"Aug 2015 - May 2019",
-        "cgpa": "8.45 out of 10"
+        "graduated":"Aug 2015 - May 2019"
       }
     ],
     "skills":[
