@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import TicTacToe from '../assets/projects/tic-tac-toe.png';
-import TwitterSA from '../assets/projects/twitter-sentiment-analysis.png';
-import WeatherFinder from '../assets/projects/weather-finder.png';
 import {
   Accordion,
   AccordionItem,
@@ -25,9 +22,9 @@ class Projects extends Component {
                 <AccordionItemHeading>
                     <AccordionItemButton>
                         <span className='heading'>Restaurant Management System </span>&nbsp; &nbsp;
-                        <a href="https://github.com/DhrumilShah26/Restaurant-Management-Front-End" target='_blank' rel="noopener noreferrer" title="front-end"><i className='fa fa-github link-icon'></i></a>
+                        <a href="https://github.com/DhrumilShah26/Restaurant-Management-Web-App" target='_blank' rel="noopener noreferrer" title="Source Code"><i className='fa fa-github link-icon'></i></a>
                         &nbsp; &nbsp;
-                        <a href="https://github.com/DhrumilShah26/Restaurant-Management-Back-End" target='_blank' rel="noopener noreferrer" title="back-end"><i className='fa fa-github link-icon'></i></a>
+                        <a href="http://ec2-3-129-19-79.us-east-2.compute.amazonaws.com" target='_blank' rel="noopener noreferrer" title="Demo"><i className='fa fa-link link-icon'></i></a>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
@@ -37,6 +34,7 @@ class Projects extends Component {
                       &bull; Implemented user authentication and verification using passport.js and JWT <br/>
                       &bull; Database is stored in MongoDB collection using different database schemas <br/>
                       &bull; Developed various RESTful API endpoints using ExpressJS router <br/>
+                      &bull; Successfully deployed on AWS EC2 instance <br/>
                     </span>
                 </AccordionItemPanel>
             </AccordionItem>

@@ -104,7 +104,7 @@ class Skills extends Component {
                     </li>
                     <li>
                         <span><i class="fa fa-check"></i></span>
-                        <span className="details">Project Management: </span><span className="details-1">Agile, Waterfall, Scrum</span>
+                        <span className="details">Project Management: </span><span className="details-1">Agile, Waterfall, Scrum, JIRA</span>
                     </li>
                     <li>
                         <span><i class="fa fa-check"></i></span>
